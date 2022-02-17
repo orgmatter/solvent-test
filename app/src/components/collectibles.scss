@@ -1,0 +1,32 @@
+.collectibles-cover {
+    width: 100%;
+
+    .collectibles-cover-flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+
+        .collectibles-cover-flex-item {
+            width: 83%;
+            border-radius: 10px;
+
+            .list-collectibles-cover {
+                width: 100%;
+
+                .list-collectibles-cover-flex {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-flow: row wrap;
+                }
+            }
+            .no-result-div {
+
+                .no-result-p {
+                    
+                }
+            }
+        }
+    }
+}

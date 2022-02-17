@@ -1,0 +1,17 @@
+.homepage-cover {
+    width: 100%;
+
+    .homepage-cover-flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .homepage-cover-flex-item {
+            width: 70%;
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}

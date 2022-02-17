@@ -1,0 +1,12 @@
+[programs.localnet]
+solvent_test = "Hc21T1SYR1nNG4h8T5CGvPJXg1LSNHTTUik99n9wU59h"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/user/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

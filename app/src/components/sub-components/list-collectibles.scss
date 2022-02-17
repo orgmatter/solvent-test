@@ -1,0 +1,96 @@
+.link-card-cover {
+    width: 23%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in all;
+
+    &:hover {
+        width: 22.2%;
+    }
+
+    .list-collectibles-cover-flex-item {
+        width: 100%;
+    
+        .header {
+            width: 100%;
+    
+            .image-cover-flex {
+                width: 100%;
+                height: 200px;
+    
+                .image-cover-item {
+                    width: 100%;
+                    height: 100%;
+        
+                    .img-elem {
+                        width: 100%;
+                        border-top-left-radius: 8px;
+                        border-top-right-radius: 8px;
+                    }
+                }
+            }
+        }
+        .footer {
+            width: 100%;
+            padding-bottom: 5px;
+    
+            .name-cover {
+                width: 100%;
+                padding-top: 20px;
+                padding-left: 10px;
+    
+                .name-p {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    margin-block-start: 0.5rem;
+                    margin-block-end: 0.5rem;
+                    padding-right: 0px;
+                }
+            }
+            .symbol-cover {
+                width: 100%;
+                padding-left: 10px;
+    
+                .symbol-p {
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    margin-block-start: 0.5rem;
+                    margin-block-end: 0.5rem;
+                    padding-right: 0px;
+                }
+            }
+            .btn-cover-flex {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+    
+                .btn-cover-item {
+                    width: 70%;
+                    padding: 15px;
+    
+                    .btn-elem {
+                        width: 100%;
+                        border: none;
+                        padding: 0px;
+                        border-radius: 8px;
+                        height: 35px;
+                        background-color: rgba(190, 190, 190, 0.8);
+    
+                        .link-elem {
+                            display: inline-block;
+                            text-decoration: none;
+                            height: 35px;
+                            width: 100%;
+                            line-height: 35px;
+                            color: rgba(0,0,0,0.8);
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
